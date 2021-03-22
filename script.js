@@ -12,7 +12,7 @@ function calculation () {
   hheight = document.getElementById('h-height').value
   bbase = parseInt(bbase)
   abase = parseInt(abase)
-	hheight = parseInt(hheight)
+  hheight = parseInt(hheight)
   sum = (abase + bbase) / 2
   p = sum * hheight
   document.getElementById('paragraph').innerHTML = p
